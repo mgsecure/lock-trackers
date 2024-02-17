@@ -1,0 +1,259 @@
+{
+  "people": {
+    "columns": [
+      {
+        "name": "ID",
+        "id": "id",
+        "align": "left"
+      },
+      {
+        "align": "left",
+        "name": "Name",
+        "id": "name"
+      },
+      {
+        "align": "left",
+        "name": "Location",
+        "id": "location"
+      }
+    ],
+    "data": [
+      {
+        "id": "p_00000001",
+        "name": "mgsecure",
+        "location": "United States",
+        "dateCreated": "01/01/2024"
+      },
+      {
+        "id": "p_00000002",
+        "name": "Loose-Shirt",
+        "location": "United States",
+        "dateCreated": "01/01/2024"
+      },
+      {
+        "id": "p_00000003",
+        "name": "Georgia Jim",
+        "location": "United States",
+        "dateCreated": "01/01/2024"
+      },
+      {
+        "id": "p_00000004",
+        "name": "Cajun Lock Picker",
+        "location": "United States",
+        "dateCreated": "01/08/2024"
+      },
+      {
+        "id": "p_00000005",
+        "name": "Pickle Slice",
+        "location": "Germany",
+        "dateCreated": "01/09/2024"
+      }
+    ]
+  },
+  "locks": {
+    "columns": [
+      {
+        "id": "id",
+        "name": "ID",
+        "align": "left"
+      },
+      {
+        "id": "name",
+        "name": "Name",
+        "align": "left"
+      },
+      {
+        "id": "makerId",
+        "name": "Maker",
+        "align": "left"
+      },
+      {
+        "id": "pinCount",
+        "name": "Pin Count",
+        "align": "center"
+      },
+      {
+        "id": "lockType",
+        "name": "Lock Type",
+        "align": "left"
+      },
+      {
+        "id": "dateCreated",
+        "name": "Created",
+        "align": "left"
+      },
+      {
+        "id": "lastUpdated",
+        "name": "Updated",
+        "align": "left"
+      }
+    ],
+    "data": [
+      {
+        "id": "l_00000001",
+        "name": "Pirrip",
+        "makerId": "p_00000001",
+        "pinCount": 5,
+        "photoURL": "https://challengelock.com/CL-1080.jpg",
+        "lockType": "SC1 KIK",
+        "dateCreated": "01/01/2024",
+        "lastUpdated": "01/01/2024"
+      },
+      {
+        "id": "l_00000002",
+        "name": "Hemmingway",
+        "makerId": "p_00000001",
+        "pinCount": 6,
+        "photoURL": null,
+        "lockType": "SC1 Mortise",
+        "dateCreated": "01/01/2024",
+        "lastUpdated": "01/01/2024"
+      },
+      {
+        "id": "l_00000003",
+        "name": "Loosey Goosey",
+        "makerId": "p_00000002",
+        "pinCount": 6,
+        "photoURL": null,
+        "lockType": "Yale Mortise",
+        "dateCreated": "01/01/2024",
+        "lastUpdated": "01/25/2024"
+      }
+    ]
+  },
+  "recipients": {
+    "columns": [
+      {
+        "id": "id",
+        "name": "ID",
+        "align": "left",
+        "field": "firstName",
+        "headerName": "First name",
+        "width": 150,
+        "editable": true
+      },
+      {
+        "id": "lockId",
+        "name": "Lock ID",
+        "align": "left"
+      },
+      {
+        "id": "pickerId",
+        "name": "Picker ID",
+        "align": "left"
+      },
+      {
+        "id": "sequence",
+        "name": "Seq.",
+        "align": "left"
+      },
+      {
+        "id": "approximateBelt",
+        "name": "Approx. Belt",
+        "align": "left"
+      },
+      {
+        "id": "dateReceived",
+        "name": "Received",
+        "align": "left"
+      },
+      {
+        "id": "datePicked",
+        "name": "Picked",
+        "align": "left"
+      },
+      {
+        "id": "dateSent",
+        "name": "Sent",
+        "align": "left"
+      },
+      {
+        "id": "sentTo",
+        "name": "Sent To",
+        "align": "left"
+      },
+      {
+        "id": "notes",
+        "name": "Notes",
+        "align": "left"
+      }
+    ],
+    "data": [
+      {
+        "id": "r_00000001",
+        "lockId": "l_00000001",
+        "pickerId": "p_00000002",
+        "sequence": 1,
+        "approximateBelt": 6,
+        "dateReceived": "01/01/2024",
+        "datePicked": "01/07/2024",
+        "dateSent": "01/15/2024",
+        "sentTo": "p_00000003",
+        "notes": "fun one!"
+      },
+      {
+        "id": "r_00000002",
+        "lockId": "l_00000001",
+        "pickerId": "p_00000003",
+        "sequence": 2
+      },
+      {
+        "id": "r_00000003",
+        "lockId": "l_00000002",
+        "pickerId": "p_00000002",
+        "sequence": 1
+      },
+      {
+        "id": "r_00000004",
+        "lockId": "l_00000002",
+        "pickerId": "p_00000004",
+        "sequence": 2
+      },
+      {
+        "id": "r_00000005",
+        "lockId": "l_00000002",
+        "pickerId": "p_00000005",
+        "sequence": 3
+      }
+    ],
+    "belts": [
+      {
+        "id": 1,
+        "name": "White"
+      },
+      {
+        "id": 2,
+        "name": "Yellow"
+      },
+      {
+        "id": 3,
+        "name": "Orange"
+      },
+      {
+        "id": 4,
+        "name": "Green"
+      },
+      {
+        "id": 5,
+        "name": "Blue"
+      },
+      {
+        "id": 6,
+        "name": "Purple"
+      },
+      {
+        "id": 7,
+        "name": "Brown"
+      },
+      {
+        "id": 8,
+        "name": "Red"
+      },
+      {
+        "id": 9,
+        "name": "Black"
+      }
+    ]
+  }
+}
+
